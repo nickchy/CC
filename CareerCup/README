@@ -1,0 +1,26 @@
+# Author: J. Liu
+# Email: mitkook@gmail.com
+
+Git: https://github.com/mitkook/Career-Cup-CPP-Solutions.wiki.git
+
+This project try to implement career cup 150 (ver. 4.0) exercises using C++. 
+However, it would not cover Chapter 6 & 7.
+It will provides several well-known algorithms and data structures implementations.
+
+IDE: Eclipse 
+Linux Compiler: Linux GCC , GNU's g++
+Windows Compiler: MinGW GCC, CDT Internal Builder
+
+NOTE: Please configure your compiler and "gcc include" path before compiling this project.
+1. right-click your project name
+2. select 'Properties' (normally is last one)
+3. C/C++ Build -> Tool Chain Editor : 
+   Current toolchain: (select your own compiler)
+   Current builder: GNU Make Builder
+4. Make sure your gcc library path is correct:
+   C/C++ General -> Paths and Symbols -> GNU C++ (e.g., ..\MinGW\lib\gcc\mingw32\4.6.2\include\c++)
+5. Done.
+
+PS: For C++11 (gcc 4.7.x) user: right-click the project and go to "Properties"
+1. C/C++ Build -> Settings -> Tool Settings -> GCC C++ Compiler -> Miscellaneous -> Other Flags. Put "-std=c++0x" at the end
+2. C/C++ General -> Paths and Symbols -> Symbols -> GNU C++. Click "Add..." and paste "__GXX_EXPERIMENTAL_CXX0X__" into "Name" and leave "Value" blank.

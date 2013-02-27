@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1361993917 source:/home/nick/CC/CareerCup/My Lib/Sorting.cpp
+	"MyAlgorithms.h"
+
+1361993917 /home/nick/CC/CareerCup/My Lib/MyAlgorithms.h
+	<cstring>
+
+1361993917 source:/home/nick/CC/CareerCup/Test.cpp
+	"Chapter 1/Ex_1_8.h"
+	<iostream>
+
+1361993917 /home/nick/CC/CareerCup/Chapter 1/Ex_1_8.h
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<iostream>
+
